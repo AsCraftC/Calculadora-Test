@@ -103,44 +103,38 @@ public class Calculadora {
                 c=sumar(a,b);
                 Mostrar(c);
                 menu();
-                break;
             case 2:
                 a=ValidarNumero();
                 b=ValidarNumero();
                 c=resta(a,b);
                 Mostrar(c);
                 menu();
-                break;
             case 3:
                 a=ValidarNumero();
                 b=ValidarNumero();
                 c=multiplicar(a,b);
                 Mostrar(c);
                 menu();
-                break;
             case 4:
                 a=ValidarNumero();
                 b=ValidarNumero();
                 c=dividir(a,b);
                 Mostrar(c);
                 menu();
-                break;
             case 5:
                 a=ValidarNumero();
                 b=ValidarNumero();
                 c=Potencia(a,b);
                 Mostrar(c);
                 menu();
-                break;
             case 6:
                 a=ValidarNumero();
                 b=ValidarNumero();
                 c=comparar(a,b);
                 Mostrar(c);
                 menu();
-                break;
             case 7:
-                break;
+                System.exit(0);
         }
         
     }
